@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    background-color: lightsalmon;
+    
+}
+h1{
+    font-size: 80px;
+    color: blue; 
+    font-family: 'Chela One', cursive;
+    align-items: center;
+}
+header{
+    text-align: center;
+    background-image: url(../imagens/oi.jpg);
+    background-size: cover;
+    background-position-y: -121px;
+    padding: 100px; 
+
+}
+nav{
+    text-align: right;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.links{
+    color: black;
+    text-decoration: none;
+    font-size: 16pt;
+    text-transform: uppercase;\
+
+}
+header{
+    border-radius: 50%;
+}
