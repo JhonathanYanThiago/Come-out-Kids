@@ -15,22 +15,24 @@ header{
     background-size: cover;
     background-position-y: -121px;
     padding: 100px; 
+    border-radius: 50%;
 
 }
 nav{
-    text-align: right;
+    height: 50px;
+    background-color:blue;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 
-}
-.links{
-    color: black;
-    text-decoration: none;
-    font-size: 16pt;
-    text-transform: uppercase;\
 
 }
-header{
-    border-radius: 50%;
+.links{
+    color: orangered;
+    text-decoration: none;
+    font-size: 16pt;
+    text-transform: uppercase;
+    border: 1px solid orangered;
+    padding: 11px;
+
 }
